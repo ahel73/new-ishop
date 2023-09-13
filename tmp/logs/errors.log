@@ -24,3 +24,7 @@
 =================
 [2023-09-13 17:07:59] Текст ошибки: Call to undefined method wfm\Router::upperCamelCase() | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 56
 =================
+[2023-09-13 17:42:45] Текст ошибки: Контроллер app\controllers\YtfhUuiController не найден | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 41
+=================
+[2023-09-13 17:42:58] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 41
+=================
