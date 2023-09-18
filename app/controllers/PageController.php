@@ -3,8 +3,10 @@
 
 namespace app\controllers;
 
+use wfm\Controller;
 
-class PageController
+
+class PageController extends Controller
 {
 
     public function viewAction()
