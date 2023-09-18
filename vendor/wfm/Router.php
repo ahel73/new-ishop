@@ -7,8 +7,8 @@ namespace wfm;
 class Router
 {
 
-    protected static array $routes = [];
-    protected static array $route = [];
+    protected static array $routes = []; // имеющиеся роутыры забираются из routes.php
+    protected static array $route = []; // ассоц массив с контроллером и методом по из запроса
 
     public static function add($regexp, $route = [])
     {
@@ -25,8 +25,20 @@ class Router
         return self::$route;
     }
 
+    protected static function removeQueryString($url)
+    {
+        if ($url) {
+            $params = explode('&', $url, 2);
+            if (false === str_contains($params[0], '=')) {
+                return rtrim($params[0], '/');
+            }
+        }
+        return '';
+    }
+
     public static function dispatch($url)
     {
+        $url = self::removeQueryString($url);
         if (self::matchRoute($url)) {
             $controller = 'app\controllers\\' . self::$route['admin_prefix'] . self::$route['controller'] . 'Controller';
             if (class_exists($controller)) {
