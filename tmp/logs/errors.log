@@ -34,3 +34,17 @@
 =================
 [2023-09-18 13:50:12] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 56
 =================
+[2023-09-27 13:31:09] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 56
+=================
+[2023-09-27 13:58:36] Текст ошибки: syntax error, unexpected token "public", expecting end of file | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Controller.php | Строка: 42
+=================
+[2023-09-27 13:59:52] Текст ошибки: Не найден вид C:\OpenServer\domains\new-ishop.loc/app/views/Main/index.php | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 35
+=================
+[2023-09-27 14:04:28] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 58
+=================
+[2023-09-27 14:04:32] Текст ошибки: Call to undefined method app\controllers\admin\MainController::getModel() | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 46
+=================
+[2023-09-27 14:19:31] Текст ошибки: Страница не найдена | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 58
+=================
+[2023-09-27 14:21:01] Текст ошибки: Не найден вид C:\OpenServer\domains\new-ishop.loc/app/views/Page/view.php | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 35
+=================
