@@ -48,3 +48,5 @@
 =================
 [2023-09-27 14:21:01] Текст ошибки: Не найден вид C:\OpenServer\domains\new-ishop.loc/app/views/Page/view.php | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 35
 =================
+[2023-09-27 14:42:24] Текст ошибки: Call to undefined function wfm\h() | Файл: C:\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 50
+=================
